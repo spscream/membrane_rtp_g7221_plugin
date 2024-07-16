@@ -36,7 +36,7 @@ defmodule Membrane.RTP.G7221.Mixfile do
 
   defp deps do
     [
-      {:membrane_core, "~> 1.0.0"},
+      {:membrane_core, "~> 1.1.0"},
       {:membrane_rtp_format, "~> 0.9.0"},
       {:membrane_g7221_format, git: "https://github.com/spscream/membrane_g7221_format.git"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
